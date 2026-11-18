@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creators | X Society</title>
+  <meta name="description" content="Meet the X Society roster: TikTok and Instagram creators in Atlanta, Chicago, Brooklyn, Louisville and Austin covering style, food, sneakers, fitness, music and tech.">
+  <meta property="og:title" content="The X Society Roster">
+  <meta property="og:description" content="Six creators. Five cities. Find the right voice for your brand.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{img:party:1200x630}}">
+  <meta name="theme-color" content="#0a0a0b">
+  {{> head}}
+</head>
+<body>
+{{> nav roster}}
+
+<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <div class="page-head-row">
+        <h1 class="display h-xl lines"><span class="ln"><span class="outline">The</span></span><span class="ln"><span>Roster</span></span></h1>
+        <span class="count-badge reveal" id="count" hidden><i></i><span></span></span>
+      </div>
+      <p class="lede reveal">Every creator in the Society has a home city, a lane they own and a community that trusts them. Filter by city, then <strong>book the voice that fits your brand.</strong></p>
+    </div>
+  </section>
+
+  <section class="section-tight" style="padding-top:0" aria-label="Creators">
+    <div class="wrap">
+      <div class="chips" id="chips" role="group" aria-label="Filter by city"></div>
+      <div class="roster-grid" id="roster" aria-live="polite" aria-busy="true">
+        <div class="creator skeleton"></div><div class="creator skeleton"></div><div class="creator skeleton"></div>
+      </div>
+      <div class="btns" style="justify-content:center;margin-top:32px">
+        <button class="btn btn-ghost" id="more" type="button" hidden>Load more</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="promo promo-slide is-active reveal">
+        <div class="promo-media"><img src="{{img:bts:900x620}}" alt="Creator shoot in a pink studio" loading="lazy"></div>
+        <div class="promo-copy lime">
+          <h3 class="display">Need more<br><span class="outline-dark">than one?</span></h3>
+          <p>Book a multi-city takeover and run the same drop through every market in one week. We handle the scheduling, scripts and reporting.</p>
+          <div class="btns"><a class="btn btn-light" style="background:#0a0a0b;color:var(--ink)" href="/contact.html">Plan a Takeover <span class="arrow" aria-hidden="true">→</span></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{> footer}}
+<script src="/js/main.js" defer></script>
+<script type="module" src="/js/roster.js"></script>
+</body>
+</html>

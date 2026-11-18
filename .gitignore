@@ -1,0 +1,8 @@
+preview/
+media/
+deploy/
+shots/
+*.zip
+.DS_Store
+__pycache__/
+.vercel

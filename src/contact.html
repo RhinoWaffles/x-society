@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | X Society</title>
+  <meta name="description" content="Work with X Society. Tell us about your brand and campaign, and our Chicago team will match you with creators in Atlanta, Chicago, Brooklyn, Louisville and Austin.">
+  <meta property="og:title" content="Work With X Society">
+  <meta property="og:description" content="Tell us what you're launching. We'll bring the creators.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{img:rooftop:1200x630}}">
+  <meta name="theme-color" content="#0a0a0b">
+  {{> head}}
+</head>
+<body>
+{{> nav contact}}
+
+<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <h1 class="display h-xl lines"><span class="ln"><span>Let's make</span></span><span class="ln"><span class="outline">some noise</span></span></h1>
+      <p class="lede reveal">Launching a product, opening a store or just need your brand in more feeds? Tell us about it. We reply to every brief within <strong>48 hours.</strong></p>
+    </div>
+  </section>
+
+  <section class="section-tight" style="padding-top:0">
+    <div class="wrap contact-grid">
+      <aside class="contact-info reveal">
+        <div class="info-block">
+          <h3>Email</h3>
+          <a href="mailto:hello@xsociety.com">hello@xsociety.com</a>
+        </div>
+        <div class="info-block">
+          <h3>Headquarters</h3>
+          <p>1550 N Milwaukee Ave<br>Chicago, IL 60622</p>
+        </div>
+        <div class="info-block">
+          <h3>Our cities</h3>
+          <div class="city-list">
+            <span class="chip static" style="background:var(--lime);color:#0a0a0b">Chicago</span>
+            <span class="chip static" style="background:var(--pink);color:#0a0a0b">Atlanta</span>
+            <span class="chip static" style="background:var(--yellow);color:#0a0a0b">Brooklyn</span>
+            <span class="chip static" style="background:var(--violet);color:#fff">Louisville</span>
+            <span class="chip static" style="background:var(--orange);color:#0a0a0b">Austin</span>
+          </div>
+        </div>
+        <div class="contact-photo"><img src="{{img:interview:900x560}}" alt="Street interview creator on a busy sidewalk" loading="lazy"></div>
+      </aside>
+
+      <div class="form-card reveal d1">
+        <h2 class="display h-md">Start a brief</h2>
+        <p>The more you share, the better we can match you. Fields with <span class="hl-pink">*</span> are required.</p>
+        <div id="form-root"><p class="form-loading">Loading the form…</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{> footer}}
+<script src="/js/main.js" defer></script>
+<script type="module" src="/js/contact.js"></script>
+</body>
+</html>
